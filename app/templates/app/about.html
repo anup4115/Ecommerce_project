@@ -1,0 +1,64 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}About{% endblock title %}
+{% block banner-slider %}
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{% static 'app/images/banner/banner1.jpg' %}" class="d-block w-100" alt="banner image">
+            </div>
+            <div class="carousel-item ">
+                <img src="{% static 'app/images/banner/high-angle-.jpg' %}" class="d-block w-100" alt="banner image">
+            </div>
+            <div class="carousel-item ">
+                <img src="{% static 'app/images/banner/banner3.jpg' %}" class="d-block w-100" alt="banner image">
+            </div>
+            <div class="carousel-item ">
+                <img src="{% static 'app/images/banner/b4.jpg' %}" class="d-block w-100" alt="banner image">
+            </div>
+        </div>
+    </div>    
+{% endblock banner-slider %}
+
+{% block main-content %}
+
+<br/><br/>
+<div class="container mt-3">
+    <br>
+    <h2 class="text-center">About Us</h2>
+    <br>
+    <div class="row-container">
+        <p class="fs-4" text-center>The Magnifico is a single point of contact that provides a wide range of themes perfect for variety of niches, with a wide flair for innovation and creativity We have ample of resources and technical experts who will help you throughout the process of installation turn your raw concept or ideas into tangible realities. All our websites, themes and plugins are easy to install and are backed up by excellent team support.
+        </p>
+
+    </div>
+    <br><br>
+    <h2 class="text-center">Mission</h2>
+    <br>
+    <div class="row-container">
+        <p class="fs-4" text-center>Goal is to provide the best and most personalized shopping experience for customers while ensuring transparency, reliability, and convenience. Here's a more detailed breakdown of my mission:
+
+            Customer-Centric Approach: My primary focus would be on understanding and meeting the needs of every individual customer. I would use AI to analyze customer preferences, browsing history, and purchase behavior to offer personalized product recommendations and a tailored shopping experience.
+            
+            Extensive Product Range: I would aim to offer an extensive and diverse range of products to cater to the various interests and needs of customers. This would include partnering with reputable sellers and brands to ensure high-quality offerings.
+            
+            User-Friendly Interface: My website would have a user-friendly interface that is intuitive and easy to navigate. Customers should be able to find what they are looking for quickly and efficiently.
+            
+            Transparency and Information: I would provide clear and comprehensive product information, including specifications, reviews, and ratings, to empower customers to make well-informed decisions.
+            
+            Secure Transactions: Ensuring the security and privacy of customer information would be of utmost importance. I would employ robust security measures to protect customer data and facilitate safe transactions.
+            
+            Customer Support: I would offer reliable and responsive customer support to address any queries, concerns, or issues that customers might have during their shopping journey.
+            
+            Fast and Reliable Delivery: Timely delivery is crucial for customer satisfaction. I would strive to partner with efficient shipping and logistics providers to ensure fast and reliable delivery of orders.
+            
+            Constant Innovation: As an AI-powered platform, I would continuously invest in research and development to improve the overall shopping experience. This could include integrating new technologies like augmented reality for virtual try-ons, voice-based shopping, or improved natural language understanding.
+            
+            Social and Environmental Responsibility: I would promote social and environmental responsibility by partnering with eco-friendly brands, encouraging sustainable practices, and supporting social initiatives.
+            
+            Community Building: I would aim to build a strong and engaged community of shoppers, where customers can share their experiences, offer recommendations, and connect with each other.
+        </p>
+        <br/><br/>
+    </div>
+</div>
+{% endblock main-content %}
